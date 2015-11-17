@@ -1,0 +1,2119 @@
+NOTE: PROCEDURE PRINTTO used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+1 
+Traverser: Traverser invoked.  MPCONNECT command is sas. 
+Traverser: Beginning flow traversal 
+*------------------------------------------------------------* 
+* 
+* Ids : Beginning Update 
+* datetime : 04NOV2015:07:49:42 
+* 
+*------------------------------------------------------------* 
+20725      %let _HPDMGRIDHOST=;
+20726      %let _HPDMGRIDINSTALLLOC=;
+20727      %let _HPDMGRIDDATASERVER=;
+20728      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Ids : End Update 
+* datetime : 04NOV2015:07:49:42 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "TRANS" 
+Traverser: WaitingNode "BINNING" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "NEURAL3" 
+Traverser: WaitingNode "NEURAL2" 
+Traverser: WaitingNode "IMPT" 
+Traverser: WaitingNode "VARSEL" 
+Traverser: WaitingNode "NEURAL" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Part : Beginning Update 
+* datetime : 04NOV2015:07:49:43 
+* 
+*------------------------------------------------------------* 
+20747      %let _HPDMGRIDHOST=;
+20748      %let _HPDMGRIDINSTALLLOC=;
+20749      %let _HPDMGRIDDATASERVER=;
+20750      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Part : End Update 
+* datetime : 04NOV2015:07:49:43 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "TRANS" 
+Traverser: WaitingNode "BINNING" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "NEURAL3" 
+Traverser: WaitingNode "NEURAL2" 
+Traverser: WaitingNode "VARSEL" 
+Traverser: WaitingNode "NEURAL" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Impt : Beginning Update 
+* datetime : 04NOV2015:07:49:43 
+* 
+*------------------------------------------------------------* 
+20770      %let _HPDMGRIDHOST=;
+20771      %let _HPDMGRIDINSTALLLOC=;
+20772      %let _HPDMGRIDDATASERVER=;
+20773      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Impt : End Update 
+* datetime : 04NOV2015:07:49:43 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "BINNING" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "NEURAL3" 
+Traverser: WaitingNode "NEURAL2" 
+Traverser: WaitingNode "NEURAL" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Varsel : Beginning Update 
+* datetime : 04NOV2015:07:49:44 
+* 
+*------------------------------------------------------------* 
+20793      %let _HPDMGRIDHOST=;
+20794      %let _HPDMGRIDINSTALLLOC=;
+20795      %let _HPDMGRIDDATASERVER=;
+20796      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Varsel : End Update 
+* datetime : 04NOV2015:07:49:44 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "BINNING" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Trans : Beginning Update 
+* datetime : 04NOV2015:07:49:45 
+* 
+*------------------------------------------------------------* 
+20816      %let _HPDMGRIDHOST=;
+20817      %let _HPDMGRIDINSTALLLOC=;
+20818      %let _HPDMGRIDDATASERVER=;
+20819      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Trans : End Update 
+* datetime : 04NOV2015:07:49:45 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural3 : Beginning Update 
+* datetime : 04NOV2015:07:49:45 
+* 
+*------------------------------------------------------------* 
+20839      %let _HPDMGRIDHOST=;
+20840      %let _HPDMGRIDINSTALLLOC=;
+20841      %let _HPDMGRIDDATASERVER=;
+20842      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural3 : End Update 
+* datetime : 04NOV2015:07:49:45 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural2 : Beginning Update 
+* datetime : 04NOV2015:07:49:46 
+* 
+*------------------------------------------------------------* 
+20862      %let _HPDMGRIDHOST=;
+20863      %let _HPDMGRIDINSTALLLOC=;
+20864      %let _HPDMGRIDDATASERVER=;
+20865      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural2 : End Update 
+* datetime : 04NOV2015:07:49:46 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural : Beginning Update 
+* datetime : 04NOV2015:07:49:47 
+* 
+*------------------------------------------------------------* 
+20885      %let _HPDMGRIDHOST=;
+20886      %let _HPDMGRIDINSTALLLOC=;
+20887      %let _HPDMGRIDDATASERVER=;
+20888      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural : End Update 
+* datetime : 04NOV2015:07:49:47 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "NEURAL4" 
+Traverser: WaitingNode "NEURAL6" 
+Traverser: WaitingNode "NEURAL5" 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* BINNING : Beginning Update 
+* datetime : 04NOV2015:07:49:47 
+* 
+*------------------------------------------------------------* 
+PERFORMANCE  DETAILS
+21145      %let emexceptionString =;
+21146      %let EMEXCEPTIONSTRING=;
+21147      *------------------------------------------------------------*;
+21148      * UPDATE: BINNING;
+21149      *------------------------------------------------------------*;
+21150      %let EM_ACTION = UPDATE;
+21151      %let syscc = 0;
+21152      %macro main;
+21153      
+21154        filename temp catalog 'sashelp.emmdfy.binning_macros.source';
+21155        %include temp;
+21156        filename temp;
+21157      
+21158        %setProperties;
+21159      
+21160        %if %upcase(&EM_ACTION) = CREATE %then %do;
+21161          filename temp catalog 'sashelp.emmdfy.binning_create.source';
+21162          %include temp;
+21163          filename temp;
+21164      
+21165          %create;
+21166        %end;
+21167      
+21168         %else
+21169         %if %upcase(&EM_ACTION) = TRAIN %then %do;
+21170      
+21171             filename temp catalog 'sashelp.emmdfy.binning_train.source';
+21172             %include temp;
+21173             filename temp;
+21174             %train;
+21175         %end;
+21176      
+21177        %else
+21178        %if %upcase(&EM_ACTION) = SCORE %then %do;
+21179          filename temp catalog 'sashelp.emmdfy.binning_score.source';
+21180          %include temp;
+21181          filename temp;
+21182      
+21183          %score;
+21184      
+21185        %end;
+21186      
+21187        %else
+21188        %if %upcase(&EM_ACTION) = REPORT %then %do;
+21189      
+21190             filename temp catalog 'sashelp.emmdfy.binning_report.source';
+21191             %include temp;
+21192             filename temp;
+21193      
+21194             %report;
+21195         %end;
+21196      
+21197         %doendm:
+21198      %mend main;
+21199      
+21200      %main;
+NOTE: %INCLUDE (level 1) file TEMP is file SASHELP.EMMDFY.BINNING_MACROS.SOURCE.
+21201     +
+21202     +%macro SetProperties;
+21203     +
+21204     +     /* IGN options */
+21205     +     %em_checkmacro(name=EM_PROPERTY_APPLYLEVELRULE, value=N, global=Y);
+21206     +     %em_checkmacro(name=EM_PROPERTY_BINMETHOD,  value=QUANTILE, global=Y);
+21207     +     %em_checkmacro(name=EM_PROPERTY_NUMBINS,    value=4, global=Y);
+21208     +
+21209     +     %em_checkmacro(name=EM_PROPERTY_MISSINGASLEVEL, value=Y, global=Y);
+21210     +     %em_checkmacro(name=EM_PROPERTY_PRECISION,    value=2, global=Y);
+21211     +     %em_checkmacro(name=EM_PROPERTY_CREATEGROUPING, value=N, global=Y);
+21212     +     %em_checkmacro(name=EM_PROPERTY_CREATEMETHOD, value=OVERWRITE, global=Y);
+21213     +     %em_checkmacro(name=EM_PROPERTY_IMPORTGROUPING, value=N, global=Y);
+21214     +     %em_checkmacro(name=EM_PROPERTY_IMPORTDATA, value=, global=Y);
+21215     +     %em_checkmacro(name=EM_PROPERTY_FREEZE, value=N, global=Y);
+21216     +     %em_checkmacro(name=EM_PROPERTY_VARSELMETHOD, value=GINI, global=Y);
+21217     +     %em_checkmacro(name=EM_PROPERTY_GINICUTOFF,   value=20.0, global=Y);
+21218     +     %em_checkmacro(name=EM_PROPERTY_GRPMSMNT,     value=ORDINAL, global=Y);
+21219     +     %em_checkmacro(name=EM_PROPERTY_MAXVAR,       value=10, global=Y);
+21220     +     %em_checkmacro(name=EM_PROPERTY_CLASSGROUPRARE, value=Y, global=Y);
+21221     +     %em_checkmacro(name=EM_PROPERTY_GROUPCUTOFF,    value=0.5, global=Y);
+21222     +     %em_checkmacro(name=EM_PROPERTY_GROUPMISSING,   value=N, global=Y);
+21223     +
+21224     +     %em_checkmacro(name=EM_PROPERTY_INTTARGETMETHOD, value=CUTMEAN, global=Y);
+21225     +     %em_checkmacro(name=EM_PROPERTY_USERCUTVALUE, value=0.2, global=Y);
+21226     +     %em_checkmacro(name=EM_PROPERTY_RejectIntTarget, value=N, global=Y);
+21227     +
+21228     +
+21229     +%mend SetProperties;
+21230     +%macro appendfiles(fileref1, fileref2);
+21231     +     data _null_;
+21232     +       length c $256;
+21233     +       fid1=fopen("&fileref1",'A');
+21234     +       fid2=fopen("&fileref2",'I');
+21235     +       cval = finfo(fid2,'lrecl');
+21236     +       put cval= fid1= fid2=;
+21237     +       if (fid2 > 0) then
+21238     +         do while(fread(fid2)=0);
+21239     +           rc = fget(fid2,c,256);
+21240     +           _msg_=sysmsg();
+21241     +           /* put rc= c= _msg_=; */
+21242     +           rc = fput(fid1,strip(c));
+21243     +           rc = fwrite(fid1);
+21244     +         end;
+21245     +         _msg_=sysmsg();
+21246     +         put _msg_=;
+21247     +       rc = fclose(fid1);
+21248     +       rc = fclose(fid2);
+21249     +     run;
+21250     +%mend appendfiles;
+21251     +
+21252     +%macro buildOptScoreCode;
+21253     +
+21254     +    %em_register(key=BINCODE, type=FOLDER);
+21255     +
+21256     +    filename x catalog 'sashelp.emutil.em_deldir.source';
+21257     +    %inc x;
+21258     +    filename x;
+21259     +    %delDir(folder=%nrbquote(&em_user_bincode));
+21260     +
+21261     +    data _null_; length rc $200;
+21262     +       rc = dcreate('BINCODE', "&EM_NODEDIR");
+21263     +    run;
+21264     +
+21265     +    %if ^%sysfunc(exist(class_nosv)) %then %goto doendu;
+21266     +
+21267     +    %let dsid = %sysfunc(open(class_nosv));
+21268     +    %let nameNum    = %sysfunc(varnum(&dsid, DISPLAY_VAR));
+21269     +    %let grpnameNum = %sysfunc(varnum(&dsid, _grp_variable_));
+21270     +
+21271     +    %let oldname=;
+21272     +    %do %while(^%sysfunc(fetch(&dsid)));
+21273     +        %let name    = %sysfunc(getvarc(&dsid, &nameNum));
+21274     +        %let grpname = %sysfunc(getvarc(&dsid, &grpnameNum));
+21275     +
+21276     +        %if &name ne &oldname %then %do;
+21277     +             filename _F1 "&em_user_bincode&em_dsep.&grpname..sas" MOD;
+21278     +             data _null_;
+21279     +                length string $200 flag endflag 8;
+21280     +                retain string flag endflag;
+21281     +                set class_nosv end=eof;
+21282     +                where DISPLAY_VAR ="&name";
+21283     +                by _variable_ _group_;
+21284     +                file _F1;
+21285     +                index = kindex(_variable_, "BIN_");
+21286     +                if index gt 0 then do;
+21287     +                   if first._variable_ then do;
+21288     +                      put ' ';
+21289     +                      put "&EM_CODEBAR;";
+21290     +                      string= "* Variable: "!!strip(DISPLAY_VAR)!!";";
+21291     +                      put string;
+21292     +                      put "&EM_CODEBAR;";
+21293     +
+21294     +                      if origLabel ne "" then do;
+21295     +                            string = 'LABEL '!!strip(_grp_variable_)!!' = ';
+21296     +                            put string;
+21297     +                            string = tranwrd(origLabel,"'","''");
+21298     +                            string = "'Grouped: "!!%nrbquote(strip(substr(string, 1,188)))!!"';";
+21299     +                            put string;
+21300     +                      end;
+21301     +                      else do;
+21302     +                             string = 'LABEL '!!strip(_grp_variable_)!!' = "Grouped: '!!%nrbquote(strip(DISPLAY_VAR))!!'";';
+21303     +                             put string;
+21304     +                      end;
+21305     +
+21306     +                      put ' ';
+21307     +
+21308     +                      string =  "if MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21309     +                      put string;
+21310     +                      string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21311     +                      put string;
+21312     +                      put "end;";
+21313     +                      string = "else if NOT MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21314     +                      put string;
+21315     +                   end;
+21316     +                   if first._group_ then do;
+21317     +                      flag = 0;
+21318     +                      endflag = 1;
+21319     +                      if ^first._variable_ then do;
+21320     +                         put "else";
+21321     +                      end;
+21322     +                      if LB ne . then do;
+21323     +                         string = "if "!!strip(LB)!!" <= "!!strip(DISPLAY_VAR);
+21324     +                      end;
+21325     +                      else do;
+21326     +                         flag = 1;
+21327     +                         string = "if";
+21328     +                      end;
+21329     +                   end;
+21330     +                   if last._Group_ then do;
+21331     +                      if UB ne . then do;
+21332     +                        if flag ne 1 then do;
+21333     +                          string = strip(string)!!" AND "!!strip(DISPLAY_VAR)!!" < "!!strip(UB)!!" then do;";
+21334     +                        end;
+21335     +                        else do;
+21336     +                          string = "if "!!strip(DISPLAY_VAR)!!" < "!!strip(UB)!!" then do;";
+21337     +                        end;
+21338     +                      end;
+21339     +                      else do;
+21340     +                         if flag=1 then do;
+21341     +                            string = strip(DISPLAY_VAR) ;
+21342     +                            string = strip(string)!!'='!!strip(_split_Value_)!!" then do;";
+21343     +                            endflag=0;
+21344     +                            string="";
+21345     +                         end;
+21346     +                         else do;
+21347     +                            string = strip(string)!!" then do;";
+21348     +                         end;
+21349     +                      end;
+21350     +                      put string;
+21351     +                      string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21352     +                      put string;
+21353     +                      if endflag eq 1 then do;
+21354     +                        put "end;";
+21355     +                      end;
+21356     +                   end;
+21357     +                   if last._variable_ then do;
+21358     +                     string = "end;";
+21359     +                     put string;
+21360     +                   end;
+21361     +
+21362     +                end;
+21363     +                else do;
+21364     +                   _split_value_ = tranwrd(_split_value_,"'","''");
+21365     +                   if first._group_ then do;
+21366     +                      flag=0;
+21367     +                      if ^first._variable_ then
+21368     +                         put 'else';
+21369     +                      else do;
+21370     +                         put ' ';
+21371     +                         put "&EM_CODEBAR;";
+21372     +                         string= "* Variable: "!!strip(DISPLAY_VAR)!!";";
+21373     +                         put string;
+21374     +                         put "&EM_CODEBAR;";
+21375     +
+21376     +                         if origLabel ne "" then do;
+21377     +                               string = 'LABEL '!!strip(_grp_variable_)!!' = ';
+21378     +                               put string;
+21379     +                               string = tranwrd(origLabel,"'","''");
+21380     +                               string = "'Grouped: "!!%nrbquote(strip(substr(string, 1,188)))!!"';";
+21381     +                               put string;
+21382     +                         end;
+21383     +                         else do;
+21384     +                               string = 'LABEL '!!strip(_grp_variable_)!!' = "Grouped: '!!%nrbquote(strip(DISPLAY_VAR))!!'";';
+21385     +                               put string;
+21386     +                         end;
+21387     +
+21388     +                         put ' ';
+21389     +
+21390     +                         if format ne '' then do;
+21391     +                            if first._variable_ then do;
+21392     +                               string = "_UFormat = put("!!strip(DISPLAY_VAR)!!","!!strip(format)!!");";
+21393     +                               put string;
+21394     +                               string = '%dmnormip(_UFormat);';
+21395     +                               put string;
+21396     +
+21397     +                               string ="if MISSING(_UFORMAT) then do;";
+21398     +                               put string;
+21399     +                               string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21400     +                               put string;
+21401     +                               put "end;";
+21402     +
+21403     +                               string="else if NOT MISSING(_UFORMAT) then do;";
+21404     +                               put string;
+21405     +
+21406     +                            end;
+21407     +                         end;
+21408     +                         else do;
+21409     +                            if type = 'N' then do;
+21410     +                              string ="if MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21411     +                              put string;
+21412     +                              string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21413     +                              put string;
+21414     +                              put "end;";
+21415     +
+21416     +                              string="else if NOT MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21417     +                              put string;
+21418     +                            end;
+21419     +                            else if type='C' then do;
+21420     +                              string = "_UFormat = "||strip(DISPLAY_VAR)||";";
+21421     +                              put string;
+21422     +                              string = '%dmnormip(_UFormat);';
+21423     +                              put string;
+21424     +
+21425     +                              string ="if MISSING(_UFORMAT) then do;";
+21426     +                              put string;
+21427     +                              string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21428     +                              put string;
+21429     +                              put "end;";
+21430     +
+21431     +                              string="else if NOT MISSING(_UFORMAT) then do;";
+21432     +                              put string;
+21433     +                              string = '%dmnormip(_UFormat);';
+21434     +                              put string;
+21435     +                           end;
+21436     +                         end;
+21437     +                      end;
+21438     +                      if format ne '' OR type='C' then do;
+21439     +                        string = "if (_UFORMAT eq '"!!strip(_split_value_)!!"'";
+21440     +                      end;
+21441     +                      else do;
+21442     +                        string = "if ("!!strip(DISPLAY_VAR)!!" eq "!!strip(_split_value_);
+21443     +                      end;
+21444     +                   end;
+21445     +                   else do;
+21446     +                      if flag ne 1 then do;
+21447     +                       if format ne '' OR type='C' then do;
+21448     +                         tempstring = strip(string)!!" OR _UFORMAT eq '"!!strip(_split_value_)!!"'";
+21449     +                       end;
+21450     +                       else do;
+21451     +                         tempstring = strip(string)!!" OR "!!strip(DISPLAY_VAR)!!" eq "!!strip(_split_value_);
+21452     +                       end;
+21453     +                         length = length(tempstring);
+21454     +
+21455     +                         if length < 195 then do;
+21456     +                            string = tempstring;
+21457     +                         end;
+21458     +                         else do;
+21459     +
+21460     +                            string = strip(string);
+21461     +                            put string;
+21462     +                            string = ") then do;";
+21463     +                            put string;
+21464     +
+21465     +                            string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21466     +                            put string;
+21467     +                            put "end;";
+21468     +
+21469     +                            put 'else';
+21470     +                            if format ne '' OR type='C' then do;
+21471     +                              string = "if (_UFORMAT eq '"!!strip(_split_value_)!!"'";
+21472     +                            end;
+21473     +                            else do;
+21474     +                              string = "if "!!strip(DISPLAY_VAR)!!" eq ("!!strip(_split_value_);
+21475     +                            end;
+21476     +                         end;
+21477     +                      end;
+21478     +                   end;
+21479     +
+21480     +                   if last._group_ then do;
+21481     +                      string = strip(string);
+21482     +                      put string;
+21483     +
+21484     +                      string = ") then do;";
+21485     +                      put string;
+21486     +
+21487     +                      string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21488     +                      put string;
+21489     +                      put "end;";
+21490     +                   end;
+21491     +
+21492     +                   if last._variable_ then do;
+21493     +                     put "else do;";
+21494     +
+21495     +                     string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21496     +                     put string;
+21497     +
+21498     +                     put "end;";
+21499     +                     put "end;";
+21500     +                   end;
+21501     +                end;
+21502     +             run;
+21503     +
+21504     +             %let oldname = &name;
+21505     +        %end;
+21506     +    %end;
+21507     +    %let dsid = %sysfunc(close(&dsid));
+21508     +
+21509     +    filename _F1 "&em_user_bincode&em_dsep._ALL_.sas";
+21510     +    data _null_;
+21511     +       file _F1;
+21512     +       put "length _UFormat $200;";
+21513     +       put "drop _UFormat;";
+21514     +       put "_UFormat='';";
+21515     +    run;
+21516     +    filename _F1;
+21517     +
+21518     +   %em_register(key=EMSCOREVAR, type=DATA);
+21519     +   %let scorevarDs = %scan(&em_user_emscorevar, 2, .);
+21520     +   proc datasets lib=&em_lib nolist;
+21521     +      delete &scorevarDs;
+21522     +   run;
+21523     +   quit;
+21524     +
+21525     +   %let filrf=mydir;
+21526     +   %let rc=%sysfunc(filename(filrf,&em_user_bincode));
+21527     +   %let did=%sysfunc(dopen(&filrf));
+21528     +
+21529     +   %if &did %then %do;  %PUT  did= &did;
+21530     +       %let memcount=%sysfunc(dnum(&did));
+21531     +       %if &memcount > 0 %then %do;
+21532     +           data &em_user_emscorevar;
+21533     +              length Name $32 formula $70 file $200;
+21534     +              keep NAME Formula file;
+21535     +              formula  = '';
+21536     +           %if %sysfunc(fileexist(&em_user_bincode&em_dsep._ALL_.sas)) %then %do;
+21537     +               name=''; file="BINCODE&em_dsep._ALL_.sas";
+21538     +               output;
+21539     +           %end;
+21540     +           %do i=1 %to &memcount;
+21541     +               %let name =%nrbquote(%sysfunc(dread(&did,&i)));
+21542     +               %let newvar = %scan(&name, 1, .);
+21543     +               %if "&newvar" ne "_ALL_" %then %do;
+21544     +                   name = "&newvar"; file="BINCODE&em_dsep&name";
+21545     +                   output;
+21546     +               %end;
+21547     +           %end;
+21548     +
+21549     +           run;
+21550     +       %end;
+21551     +       %let did = %sysfunc(dclose(&did));
+21552     +  %end;
+21553     +
+21554     +   %doendu:
+21555     +%mend buildOptScoreCode;
+21556     +
+21557     +
+21558     +%macro buildScoreCode(flowCode, publishCode);
+21559     +
+21560     +
+21561     +  filename x "&flowCode";
+21562     +
+21563     +  proc sort data=&EM_USER_SPLITVALS; by display_var _split_Value_; run;
+21564     +  proc sort data=&EM_USER_BINMAPPINGS; by display_var bin; run;
+21565     +  proc sort data=&EM_USER_coarse out=tempcoarse; by display_var _group_; run;
+21566     +
+21567     +  data temp;
+21568     +    merge &EM_USER_SPLITVALS &EM_USER_BINMAPPINGS(rename=(BIN=_SPLIT_VALUE_ BIN_NAME=_VARIABLE_));
+21569     +    by display_var _Split_value_;
+21570     +     if upcase(_Split_value_) ne 'MISSING';
+21571     +   run;
+21572     +
+21573     +   data temp_missing;
+21574     +     merge &EM_USER_SPLITVALS(rename=(_GROUP_=MISSGRP)) &EM_USER_BINMAPPINGS(rename=(
+21575     +          BIN=_SPLIT_VALUE_ BIN_NAME=_VARIABLE_));
+21576     +     by display_var _Split_value_;
+21577     +     if upcase(_Split_value_) eq 'MISSING';
+21578     +     keep _variable_ display_var missgrp;
+21579     +   run;
+21580     +
+21581     +   proc sort data=temp_missing; by display_var missgrp; run;
+21582     +
+21583     +   data temp_missing;
+21584     +     merge temp_missing(in=_a) tempcoarse(rename=(_GROUP_=MISSGRP));
+21585     +     by display_var missgrp;
+21586     +     if ^_a then delete;
+21587     +     keep _variable_ display_var missgrp ;
+21588     +   run;
+21589     +
+21590     +   data temp;
+21591     +     merge temp temp_missing;
+21592     +     by display_var;
+21593     +     if display_Var eq '' then delete;
+21594     +    run;
+21595     +
+21596     +    /* pull in wtev values */
+21597     +    proc sort data=&EM_USER_varmappings out=tempmappings; by _variable_; run;
+21598     +    proc sort data=&EM_IMPORT_DATA_CMETA out=tempcmeta; by NAME; run;
+21599     +    proc sort data=temp;  by display_var _group_; run;
+21600     +
+21601     +   data temp;
+21602     +      merge temp tempcoarse(keep=display_var _group_  role) ;
+21603     +      by display_var _group_;
+21604     +    run;
+21605     +
+21606     +    data temp;
+21607     +      merge temp tempmappings(rename=(_variable_ = display_var)) tempcmeta(keep=NAME FORMAT TYPE LABEL rename=(NAME=display_var LABEL=origLabel));
+21608     +      by display_var;
+21609     +
+21610     +      if _group_ = . then delete;
+21611     +      if _variable_ = '' then delete;
+21612     +    run;
+21613     +
+21614     +    proc sort data=temp out=class;
+21615     +       by _variable_ _group_ LB;
+21616     +    run;
+21617     +
+21618     +    data _null_;
+21619     +      file X;
+21620     +
+21621     +      put "length _UFormat $200;";
+21622     +      put "drop _UFormat;";
+21623     +      put "_UFormat='';";
+21624     +    run;
+21625     +
+21626     +    data class_nosv;
+21627     +      set class;
+21628     +      if upcase(role)="INPUT";
+21629     +    run;
+21630     +
+21631     +    data _null_;
+21632     +       file X MOD;
+21633     +       length string $200 flag endflag 8;
+21634     +       retain string flag endflag;
+21635     +       set class_nosv end=eof;
+21636     +       by _variable_ _group_;
+21637     +
+21638     +       index = kindex(_variable_, "BIN_");
+21639     +       if index gt 0 then do;
+21640     +
+21641     +         if first._variable_ then do;
+21642     +            put ' ';
+21643     +            put "&EM_CODEBAR;";
+21644     +            string= "* Variable: "!!strip(DISPLAY_VAR)!!";";
+21645     +            put string;
+21646     +            put "&EM_CODEBAR;";
+21647     +
+21648     +
+21649     +            if origLabel ne "" then do;
+21650     +              string = 'LABEL '!!strip(_grp_variable_)!!' = ';
+21651     +              put string;
+21652     +              string = tranwrd(origLabel,"'","''");
+21653     +              string = "'Grouped: "!!%nrbquote(strip(substr(string, 1,188)))!!"';";
+21654     +              put string;
+21655     +            end;
+21656     +            else do;
+21657     +             string = 'LABEL '!!strip(_grp_variable_)!!' = "Grouped: '!!%nrbquote(strip(DISPLAY_VAR))!!'";';
+21658     +             put string;
+21659     +            end;
+21660     +
+21661     +            put ' ';
+21662     +
+21663     +            string =  "if MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21664     +            put string;
+21665     +            string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21666     +            put string;
+21667     +            put "end;";
+21668     +            string = "else if NOT MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21669     +            put string;
+21670     +          end;
+21671     +           if first._group_ then do;
+21672     +              flag = 0;
+21673     +              endflag = 1;
+21674     +              if ^first._variable_ then do;
+21675     +                put "else";
+21676     +              end;
+21677     +              if LB ne . then do;
+21678     +                 string = "if "!!strip(LB)!!" <= "!!strip(DISPLAY_VAR);
+21679     +              end;
+21680     +              else do;
+21681     +                 flag = 1;
+21682     +                 string = "if";
+21683     +              end;
+21684     +
+21685     +           end;
+21686     +           if last._Group_ then do;
+21687     +              if UB ne . then do;
+21688     +                if flag ne 1 then do;
+21689     +                  string = strip(string)!!" AND "!!strip(DISPLAY_VAR)!!" < "!!strip(UB)!!" then do;";
+21690     +                end;
+21691     +                else do;
+21692     +                  string = "if "!!strip(DISPLAY_VAR)!!" < "!!strip(UB)!!" then do;";
+21693     +                end;
+21694     +              end;
+21695     +              else do;
+21696     +                 if flag=1 then do;
+21697     +                   string = strip(DISPLAY_VAR) ;
+21698     +                   string = strip(string)!!'='!!strip(_split_Value_)!!" then do;";
+21699     +                   endflag = 0;
+21700     +                   string="";
+21701     +                 end;
+21702     +                 else do;
+21703     +                   string = strip(string)!!" then do;";
+21704     +                 end;
+21705     +              end;
+21706     +              put string;
+21707     +
+21708     +              string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21709     +              put string;
+21710     +              if endflag eq 1 then do;
+21711     +                put "end;";
+21712     +              end;
+21713     +           end;
+21714     +           if last._variable_ then do;
+21715     +             string = "end;";
+21716     +             put string;
+21717     +           end;
+21718     +       end;
+21719     +       else do;
+21720     +           _split_value_ = tranwrd(_split_value_,"'","''");
+21721     +           if first._group_ then do;
+21722     +              flag=0;
+21723     +              if ^first._variable_ then
+21724     +                 put 'else';
+21725     +              else do;
+21726     +                 put ' ';
+21727     +                 put "&EM_CODEBAR;";
+21728     +                 string= "* Variable: "!!strip(DISPLAY_VAR)!!";";
+21729     +                 put string;
+21730     +                 put "&EM_CODEBAR;";
+21731     +
+21732     +                 if origLabel ne "" then do;
+21733     +                   string = 'LABEL '!!strip(_grp_variable_)!!' = ';
+21734     +                   put string;
+21735     +                   string = tranwrd(origLabel,"'","''");
+21736     +                   string = "'Grouped: "!!%nrbquote(strip(substr(string, 1,188)))!!"';";
+21737     +                   put string;
+21738     +                 end;
+21739     +                 else do;
+21740     +                   string = 'LABEL '!!strip(_grp_variable_)!!' = "Grouped: '!!%nrbquote(strip(DISPLAY_VAR))!!'";';
+21741     +                   put string;
+21742     +                 end;
+21743     +
+21744     +                 put ' ';
+21745     +
+21746     +                if format ne '' then do;
+21747     +                  if first._variable_ then do;
+21748     +                    string = "_UFormat = put("!!strip(DISPLAY_VAR)!!","!!strip(format)!!");";
+21749     +                    put string;
+21750     +                    string = '%dmnormip(_UFormat);';
+21751     +                    put string;
+21752     +
+21753     +                     string ="if MISSING(_UFORMAT) then do;";
+21754     +                     put string;
+21755     +                     string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21756     +                     put string;
+21757     +                     put "end;";
+21758     +
+21759     +                     string="else if NOT MISSING(_UFORMAT) then do;";
+21760     +                     put string;
+21761     +
+21762     +                  end;
+21763     +                end;
+21764     +                else do;
+21765     +                     if type = 'N' then do;
+21766     +                       string ="if MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21767     +                       put string;
+21768     +                       string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21769     +                       put string;
+21770     +                       put "end;";
+21771     +
+21772     +                       string="else if NOT MISSING("!!strip(DISPLAY_VAR)!!") then do;";
+21773     +                       put string;
+21774     +
+21775     +                     end;
+21776     +                     else if type='C' then do;
+21777     +                        string = "_UFormat = "||strip(DISPLAY_VAR)||";";
+21778     +                        put string;
+21779     +                        string = '%dmnormip(_UFormat);';
+21780     +                        put string;
+21781     +
+21782     +                        string ="if MISSING(_UFORMAT) then do;";
+21783     +                        put string;
+21784     +                        string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21785     +                        put string;
+21786     +                        put "end;";
+21787     +
+21788     +                        string="else if NOT MISSING(_UFORMAT) then do;";
+21789     +                        put string;
+21790     +                        string = '%dmnormip(_UFormat);';
+21791     +                        put string;
+21792     +                    end;
+21793     +                end;
+21794     +              end;
+21795     +              if format ne '' OR type='C' then do;
+21796     +                string = "if (_UFORMAT eq '"!!strip(_split_value_)!!"'";
+21797     +              end;
+21798     +              else do;
+21799     +                string = "if ("!!strip(DISPLAY_VAR)!!" eq "!!strip(_split_value_);
+21800     +              end;
+21801     +           end;
+21802     +           else do;
+21803     +              if flag ne 1 then do;
+21804     +                if format ne '' OR type='C' then do;
+21805     +                  tempstring = strip(string)!!" OR _UFORMAT eq '"!!strip(_split_value_)!!"'";
+21806     +                end;
+21807     +                else do;
+21808     +                  tempstring = strip(string)!!" OR "!!strip(DISPLAY_VAR)!!" eq "!!strip(_split_value_);
+21809     +                end;
+21810     +                length = klength(tempstring);
+21811     +
+21812     +                if length < 195 then do;
+21813     +                   string = tempstring;
+21814     +                end;
+21815     +                else do;
+21816     +
+21817     +                   string = strip(string);
+21818     +                   put string;
+21819     +                   string = ") then do;";
+21820     +                   put string;
+21821     +
+21822     +                   string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21823     +                   put string;
+21824     +                   put "end;";
+21825     +
+21826     +                 /*  string = strip(string)||",'...';"; */
+21827     +
+21828     +                   put 'else';
+21829     +                   if format ne '' OR type='C' then do;
+21830     +                     string = "if (_UFORMAT eq '"!!strip(_split_value_)!!"'";
+21831     +                   end;
+21832     +                   else do;
+21833     +                     string = "if ("!!strip(DISPLAY_VAR)!!" eq "!!strip(_split_value_);
+21834     +                   end;
+21835     +
+21836     +
+21837     +                end;
+21838     +              end;
+21839     +           end;
+21840     +
+21841     +           if last._group_ then do;
+21842     +              string = strip(string);
+21843     +              put string;
+21844     +              string = ") then do;";
+21845     +              put string;
+21846     +
+21847     +              string = strip(_grp_variable_)!!" = "!!strip(_GROUP_)!!";";
+21848     +              put string;
+21849     +              put "end;";
+21850     +           end;
+21851     +
+21852     +           if last._variable_ then do;
+21853     +             put "else do;";
+21854     +
+21855     +             string = strip(_grp_variable_)!!" = "!!strip(MISSGRP)!!";";
+21856     +             put string;
+21857     +
+21858     +             put "end;";
+21859     +             put "end;";
+21860     +           end;
+21861     +         *end;
+21862     +       end;
+21863     +    run;
+21864     +
+21865     +    /* generate PublishCode the same as flowscorecode */
+21866     +    filename Y "&publishCode";
+21867     +
+21868     +    /* if publishCode already exists, wipe it out first */
+21869     +    %if %sysfunc(fexist(Y)) eq 1 %then %do;
+21870     +      %let rc = %sysfunc(fdelete(Y));
+21871     +    %end;
+21872     +
+21873     +    %appendfiles(Y, X);
+21874     +
+21875     +    %if %EM_BINARY_TARGET= %then %do;
+21876     +      %if %symexist(EM_NUM_INTERVAL_TARGET)=0 %then %do;
+21877     +         %em_varMacro(name=EM_INTERVAL_TARGET, metadata=&EM_DATA_variableSet, where=%nrbquote(ROLE="TARGET" and LEVEL="INTERVAL" and (USE="Y" or USE="D")), nummacro=em_num_interval_Target);
+21878     +      %end;
+21879     +      %let ibn_inttarget=%EM_INTERVAL_TARGET;
+21880     +      %let ibn_inttarget_orig = &ibn_inttarget;
+21881     +
+21882     +      %if %symexist(IGNBinTarget)=0 %then %do;
+21883     +         %global ignbintarget ignfreqvar;
+21884     +         filename temp catalog 'sashelp.emutil.em_getvarname.source';
+21885     +         %include temp;
+21886     +         filename temp;
+21887     +         %getVarName(&EM_IMPORT_DATA, BIN_%substr(&ibn_inttarget,1,%sysfunc(min(%length(&ibn_inttarget),28))), IGNBinTarget);
+21888     +
+21889     +         %if &EM_PROPERTY_INTTARGETMETHOD = DUPFREQ %then %do;
+21890     +            %getVarName(&EM_IMPORT_DATA, _FREQ_, ignfreqvar);
+21891     +         %end;
+21892     +      %end;
+21893     +      %if &EM_PROPERTY_INTTARGETMETHOD = CUTMEAN %then %do;
+21894     +         proc sql noprint;
+21895     +            %if %EM_FREQ ne %then %do;
+21896     +               select sum(&ibn_inttarget * %EM_FREQ) / sum(%EM_FREQ)
+21897     +            %end;
+21898     +            %else %do;
+21899     +               select mean(&ibn_inttarget)
+21900     +            %end;
+21901     +            into :ignbincut trimmed from &EM_IMPORT_DATA;
+21902     +         quit;
+21903     +      %end;
+21904     +
+21905     +      %let dsid=%sysfunc(open(&EM_IMPORT_DATA,i));
+21906     +      %if &dsid %then %do;
+21907     +         %let tarlabel=%trim(%sysfunc(varlabel(&dsid,%sysfunc(varnum(&dsid,&ibn_inttarget)))));
+21908     +         %let rc=%sysfunc(close(&dsid));
+21909     +      %end;
+21910     +      %if %length(&tarlabel)=0 %then %let tarlabel = &ibn_inttarget;
+21911     +
+21912     +      data _null_;
+21913     +         file x mod;
+21914     +         put ' ';
+21915     +
+21916     +         %if &EM_PROPERTY_INTTARGETMETHOD = CUTMEAN %then %do;
+21917     +             put "&EM_CODEBAR;";
+21918     +             %let note = Mean Cutoff Binary Transformation for Target;
+21919     +             put "* &note;";
+21920     +             put "&EM_CODEBAR;";
+21921     +         %end;
+21922     +         %else %if &EM_PROPERTY_INTTARGETMETHOD = CUTUSER %then %do;
+21923     +             put "&EM_CODEBAR;";
+21924     +             %let note = User-Specified Cutoff Binary Transformation for Target;
+21925     +             put "* &note;";
+21926     +             put "&EM_CODEBAR;";
+21927     +             %let ignbincut = &EM_PROPERTY_USERCUTVALUE;
+21928     +         %end;
+21929     +         put "if &ibn_inttarget = . then &IGNBinTarget = .;";
+21930     +         put "else do;";
+21931     +         put "   if &ibn_inttarget > &ignbincut then &IGNBinTarget=1;";
+21932     +         put "   else &IGNBinTarget=0;";
+21933     +         put "end;";
+21934     +
+21935     +         put "label &IGNBinTarget = 'Binary: %nrbquote(%substr(&tarlabel,1,192))';";
+21936     +      run;
+21937     +
+21938     +      filename deltaref "&EM_FILE_CDELTA_TRAIN";
+21939     +
+21940     +      %if &EM_PROPERTY_RejectIntTarget = Y %then %do;
+21941     +
+21942     +         data _null_;
+21943     +            file deltaref;
+21944     +            put "if name='&ibn_inttarget_orig' then role='REJECTED';";
+21945     +            put "if name='&IGNBinTarget' then do;";
+21946     +            put "   role='TARGET';";
+21947     +            put "   level='BINARY';";
+21948     +            put "end;";
+21949     +         run;
+21950     +
+21951     +      %end;
+21952     +      %else %do;
+21953     +
+21954     +         data _null_;
+21955     +            file deltaref;
+21956     +            put "if name='&ibn_inttarget_orig' then role='TARGET';";
+21957     +            put "if name='&IGNBinTarget' then do;";
+21958     +            put "   role='REJECTED';";
+21959     +            put "   level='BINARY';";
+21960     +            put "end;";
+21961     +         run;
+21962     +      %end;
+21963     +
+21964     +      filename deltaref;
+21965     +
+21966     +   %end;
+21967     +
+21968     +    filename X;
+21969     +    filename Y;
+21970     +
+21971     +    %buildOptScoreCode;
+21972     +
+21973     +    proc datasets library=work nolist;
+21974     +      delete class class_nosv temp temp_missing tempmappings tempcmeta;
+21975     +    run;
+21976     +    quit;
+21977     +
+21978     +%mend buildScoreCode;
+21979     +
+21980     +%macro buildMetaCode(DeltaCodeFile=);
+21981     +
+21982     +   /* set variable roles based on New Role column in the Results table */
+21983     +   data _null_;
+21984     +      file &DeltaCodeFile %if %length(%EM_BINARY_TARGET)=0 %then mod;;
+21985     +      %let dsid = %sysfunc(open(&EM_USER_RESULTSTABLE));
+21986     +      %if &dsid %then %do;
+21987     +        %let obs = %sysfunc(fetch(&dsid));
+21988     +        %let vnum = %sysfunc(VARNUM(&dsid, DISPLAY_VAR));
+21989     +        %let rnum = %sysfunc(VARNUM(&dsid, _new_role_));
+21990     +        %let ornum = %sysfunc(VARNUM(&dsid, _role_));
+21991     +
+21992     +        %do %while(&obs=0);
+21993     +          %let inputname = %sysfunc(getvarc(&dsid, &vnum));
+21994     +          %let role      = %upcase(%sysfunc(getvarc(&dsid, &rnum)));
+21995     +          %let oldrole   = %upcase(%sysfunc(getvarc(&dsid, &ornum)));
+21996     +
+21997     +          /* retrieve grp and woe names from varmappings dataset */
+21998     +          %let choice = _VARIABLE_ = "&inputname";
+21999     +          %let cdsid = %sysfunc(open(&EM_USER_VARMAPPINGS(where=(&choice))));
+22000     +          %let cobs = %sysfunc(fetchobs(&cdsid, 1));
+22001     +          %let grpnum = %sysfunc(VARNUM(&cdsid, _GRP_VARIABLE_));
+22002     +          %let grpname = %sysfunc(getvarc(&cdsid, &grpnum));
+22003     +          %if &cdsid %then %let cdsid = %sysfunc(close(&cdsid));
+22004     +
+22005     +          put "if name = '&inputname' then role='REJECTED';";
+22006     +          %if "&role" ne "DEFAULT" %then %do;
+22007     +            put "if name = '&grpname' then role='&role';";
+22008     +          %end;
+22009     +          %else %do;
+22010     +            put "if name = '&grpname' then role='&oldrole';";
+22011     +          %end;
+22012     +          put "if name = '&grpname' then level='&EM_PROPERTY_GRPMSMNT';";
+22013     +
+22014     +          %let obs = %sysfunc(fetch(&dsid));
+22015     +        %end;
+22016     +      %end;
+22017     +      %if &dsid %then %let dsid = %sysfunc(close(&dsid));
+22018     +   run;
+22019     +
+22020     +   /* drop all vars in the splitvals dataset that aren't present in the varmappings dataset */
+22021     +   data _null_;
+22022     +      file &DeltaCodeFile MOD;
+22023     +
+22024     +      %let sdsid = %sysfunc(open(&EM_USER_SPLITVALS));
+22025     +      %if &sdsid %then %do;
+22026     +        %let sobs = %sysfunc(fetch(&sdsid));
+22027     +        %do %while(&sobs=0);
+22028     +          %let varnum = %sysfunc(VARNUM(&sdsid, _VARIABLE_));
+22029     +          %let checkname = %sysfunc(getvarc(&sdsid, &varnum));
+22030     +          %let dispvarnum = %sysfunc(VARNUM(&sdsid, DISPLAY_VAR));
+22031     +          %let displayvar = %sysfunc(getvarc(&sdsid, &dispvarnum));
+22032     +
+22033     +          %let checkgrp = GRP_&checkname;
+22034     +          %let lenname = %length(&checkgrp);
+22035     +          %if %eval(&lenname-32) > 0 %then %do;
+22036     +            %let checkgrp = %substr(&checkgrp, 1, 32);
+22037     +          %end;
+22038     +
+22039     +          %let choice = _VARIABLE_ ="&checkname";
+22040     +          %let vdsid = %sysfunc(open(&EM_USER_VARMAPPINGS(where=(&choice))));
+22041     +
+22042     +          /* if var not found in varmappings, delete variables; */
+22043     +          /* this could happen when freeze=Y and vars in the frozen dataset aren't in the incoming training data */
+22044     +          %if &vdsid eq 0 %then %do;
+22045     +            put 'if name="&displayvar" then delete;';
+22046     +            %let dispgrp = GRP_&displayvar;
+22047     +            put 'if name="&dispgrp" then delete;';
+22048     +          %end;
+22049     +
+22050     +          %if &vdsid > 0 %then %let vdsid = %sysfunc(close(&vdsid));
+22051     +          %let sobs = %sysfunc(fetch(&sdsid));
+22052     +        %end;
+22053     +      %end;
+22054     +      %if &sdsid > 0 %then %let sdsid= %sysfunc(close(&sdsid));
+22055     +   run;
+22056     +
+22057     +%mend buildMetaCode;
+22058     +
+22059     +%macro EM_GENERATE_RESULTSTABLE(coarse, resultstable, varmappings);
+22060     +
+22061     +   proc sort data=&coarse out=sortedcoarse nodupkey;
+22062     +     by display_var;
+22063     +   run;
+22064     +   proc sort data=&varmappings nodupkey;
+22065     +     by _variable_;
+22066     +   run;
+22067     +   %if %sysfunc(exist(&resultstable, data)) %then %do;
+22068     +     proc sort data=&resultstable; by display_var; run;
+22069     +   %end;
+22070     +
+22071     +   data &resultstable (Keep = display_var _gini_  _role_ _new_role_ procLevel);
+22072     +     merge sortedcoarse(in=_a) &varmappings(rename=(_Variable_ = DISPLAY_VAR))
+22073     +     %if %sysfunc(exist(&resultstable, data)) %then %do;
+22074     +        &resultstable (keep = display_var _new_role_ )
+22075     +     %end;
+22076     +     ;
+22077     +     by display_var;
+22078     +     length _role_ _new_role_ $10;
+22079     +     label display_var = "%sysfunc(sasmsg(sashelp.dmine, rpt_variable_vlabel , NOQUOTE))"
+22080     +           _gini_     = "%sysfunc(sasmsg(sashelp.dmine, rpt_ginistatistic_vlabel , NOQUOTE))"
+22081     +           _role_     = "%sysfunc(sasmsg(sashelp.dmine, rpt_calcrole_vlabel, NOQUOTE))"
+22082     +           _new_role_ = "%sysfunc(sasmsg(sashelp.dmine, meta_NEWROLE_vlabel, NOQUOTE))"
+22083     +           LEVEL      = "%sysfunc(sasmsg(sashelp.dmine, rpt_level_vlabel , NOQUOTE))"
+22084     +           ;
+22085     +
+22086     +           %if &EM_PROPERTY_VARSELMETHOD eq GINI %then %do;
+22087     +             if _gini_ < &EM_PROPERTY_GINICUTOFF then
+22088     +                _role_ = "Rejected";
+22089     +             else _role_ = "Input";
+22090     +           %end;
+22091     +           %else %do;
+22092     +             _role_ = "Input";
+22093     +           %end;
+22094     +           if _new_role_ eq "" then _new_role_="Default";
+22095     +      if ^_a then do;
+22096     +        _gini_ = 0;
+22097     +        _role_ = 'Rejected';
+22098     +        if _new_role_ eq "" then _new_role_="Default";
+22099     +      end;
+22100     +   run;
+22101     +   proc sort data=&EM_DATA_VARIABLESET out=outlabel(keep=NAME LABEL LEVEL rename=(NAME=display_var LABEL=_label_));
+22102     +     by NAME;
+22103     +   run;
+22104     +   data outlabel;
+22105     +     set outlabel;
+22106     +     if _label_ = '' then _label_ = _variable_;
+22107     +   run;
+22108     +   data &resultstable;
+22109     +     merge &resultstable(in=_a_) outlabel;
+22110     +     by display_Var;
+22111     +     if _a_ then output;
+22112     +   run;
+22113     +   proc datasets library=work nolist;
+22114     +     delete sortedcoarse outlabel;
+22115     +   run;
+22116     +   quit;
+22117     +   proc sort data=&resultstable nodupkey;
+22118     +      by DESCENDING
+22119     +        _gini_ display_Var;
+22120     +   run;
+22121     +   data &resultstable;
+22122     +     set &resultstable;
+22123     +
+22124     +     label giniOrder = "%sysfunc(sasmsg(sashelp.dmine, rpt_giniorder_vlabel , NOQUOTE))"
+22125     +           LEVEL      = "%sysfunc(sasmsg(sashelp.dmine, rpt_level_vlabel , NOQUOTE))";
+22126     +     giniOrder = _N_;
+22127     +     _gini_ = round(_GINI_, .001);
+22128     +     drop _variable_;
+22129     +   run;
+22130     +
+22131     +   proc print data=&resultstable label;
+22132     +   run;
+22133     +
+22134     +   /* merge role, infovalOrder or giniOrder back into Coarse table as well */
+22135     +   data &coarse;
+22136     +     set &coarse;
+22137     +     length role $10;
+22138     +     %let dsid = %sysfunc(open(&resultstable));
+22139     +     %if &dsid %then %do;
+22140     +       %let disnum = %sysfunc(VARNUM(&dsid, DISPLAY_VAR));
+22141     +       %let rolenum = %sysfunc(VARNUM(&dsid, _ROLE_));
+22142     +       %let orderNum = %sysfunc(VARNUM(&dsid, giniOrder));
+22143     +
+22144     +       %let obs = %sysfunc(fetch(&dsid));
+22145     +       %do %while(&obs=0);
+22146     +          %let displayvar = %sysfunc(getvarc(&dsid, &disnum));
+22147     +          %let role       = %sysfunc(getvarc(&dsid, &rolenum));
+22148     +          %let order = %sysfunc(getvarn(&dsid, &ordernum));
+22149     +
+22150     +                                                                                               if DISPLAY_VAR = "&displayVar" then do;
+22151     +            label giniOrder = "%sysfunc(sasmsg(sashelp.dmine, rpt_giniorder_vlabel , NOQUOTE))";
+22152     +            giniOrder = &order;
+22153     +            role = "&role";
+22154     +          end;
+22155     +
+22156     +          %let obs = %sysfunc(fetch(&dsid));
+22157     +       %end;
+22158     +     %end;
+22159     +     %if &dsid %then %let dsid = %sysfunc(close(&dsid));
+22160     +   run;
+22161     +
+22162     +
+22163     +%mend EM_GENERATE_RESULTSTABLE;
+22164     +
+22165     +%macro EM_GENERATE_EXPORTGROUP(exportGrouping, createMethod);
+22166     +
+22167     +    /* instantiate the zchar macro to be used in adding bin definition */
+22168     +    filename _temp catalog 'sashelp.emmacs.zchar.source';
+22169     +    %inc _temp;
+22170     +    filename _temp;
+22171     +
+22172     +    proc sort data=&EM_USER_FINEDETAILDATA out=sortedfine;
+22173     +      by _variable_ binFlag _group_ LB;
+22174     +    run;
+22175     +
+22176     +    data tempExport;
+22177     +      set sortedFine;
+22178     +      by _variable_ binFlag _group_;
+22179     +      length _split_value_ $200;
+22180     +
+22181     +      /* for all binned variables, need to modify the split value to original cutoff as well as change level to interval */
+22182     +      if binFlag = 0 then do;
+22183     +        index = kindex(_variable_, "BIN_");
+22184     +        if index gt 0 then do;
+22185     +          _LEVEL_ = "INTERVAL";
+22186     +        end;
+22187     +        _Split_value_ = _split_value_;
+22188     +        output;
+22189     +      end;
+22190     +      else do;
+22191     +         * if last._group_ then do;
+22192     +          index = kindex(_variable_, "BIN_");
+22193     +          if index gt 0 then do;
+22194     +            _LEVEL_ = "INTERVAL";
+22195     +          end;
+22196     +          _Split_value_ = %zchar(UB);
+22197     +          output;
+22198     +         * end;
+22199     +      end;
+22200     +
+22201     +      rename display_Var = _variable_;
+22202     +      keep display_var _level_ _group_ _split_value_ binFlag;
+22203     +    run;
+22204     +
+22205     +    %if &CREATEMETHOD eq OVERWRITE %then %do;
+22206     +       data &EXPORTGROUPING;
+22207     +         set tempexport;
+22208     +       run;
+22209     +    %end;
+22210     +    %else %do;
+22211     +       /* determine if EXPORTGROUPING already exists */
+22212     +       %if %sysfunc(exist(&EXPORTGROUPING, DATA)) %then %do;
+22213     +         data &EXPORTGROUPING;
+22214     +            set &EXPORTGROUPING tempexport;
+22215     +         run;
+22216     +       %end;
+22217     +       %else %do;
+22218     +         data &EXPORTGROUPING;
+22219     +            set tempexport;
+22220     +         run;
+22221     +       %end;
+22222     +    %end;
+22223     +
+22224     +    proc datasets lib=work nolist;
+22225     +      delete sortedFine tempexport;
+22226     +    run;
+22227     +    quit;
+22228     +
+22229     +%mend EM_GENERATE_EXPORTGROUP;
+22230     +
+22231     +
+22232     +
+NOTE: %INCLUDE (level 1) ending.
+NOTE: Fileref TEMP has been deassigned.
+22233      *------------------------------------------------------------*;
+22234      * End UPDATE: BINNING;
+22235      *------------------------------------------------------------*;
+22236      
+
+22237      %em_delMacro;
+
+22239      %let _HPDMGRIDHOST=;
+22240      %let _HPDMGRIDINSTALLLOC=;
+22241      %let _HPDMGRIDDATASERVER=;
+22242      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* BINNING : End Update 
+* datetime : 04NOV2015:07:49:48 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural5 : Beginning Update 
+* datetime : 04NOV2015:07:49:48 
+* 
+*------------------------------------------------------------* 
+22261      *------------------------------------------------------------*;
+22262      * Neural5: Update Variables Set;
+22263      *------------------------------------------------------------*;
+
+22264      proc sort data=EMWS1.BINNING_CMeta_TRAIN out=_SortedVar;
+22265      by name;
+22266      run;
+
+NOTE: There were 18 observations read from the data set EMWS1.BINNING_CMETA_TRAIN.
+NOTE: The data set WORK._SORTEDVAR has 18 observations and 20 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22271      proc sort data=EMWS1.Neural5_VariableSet;
+22272      by name;
+22273      run;
+
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL5_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL5_VARIABLESET has 17 observations and 21 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+22274      data EMWS1.Neural5_VariableSet;
+22275      merge _SortedVar(in=_a) EMWS1.Neural5_VariableSet(in=_b rename=(ROLE = OLDROLE) keep=NAME ROLE USE REPORT);
+22276      by name;
+22277      if (OLDROLE = 'TARGET' and use = 'Y') and ROLE = 'REJECTED' then USE = 'D';
+22278      drop OLDROLE;
+22279      if _b and ^_a then delete;
+22280      run;
+
+NOTE: There were 17 observations read from the data set WORK._SORTEDVAR.
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL5_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL5_VARIABLESET has 17 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22281      * Neural5: End of Update Variables Set;
+22282      *------------------------------------------------------------*;
+
+22283      *------------------------------------------------------------*;
+22284      * Neural5: Computing metadata for TRAIN data;
+22285      *------------------------------------------------------------*;
+
+22620      data WORK.MODELTEMP_INFO;
+22621      set EMWS1.Neural5_EMINFO;
+22622      where DATA='Neural5' and KEY ^in('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+22623      run;
+
+NOTE: There were 0 observations read from the data set EMWS1.NEURAL5_EMINFO.
+      WHERE (DATA='Neural5') and KEY not in ('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+NOTE: The data set WORK.MODELTEMP_INFO has 0 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22624      data EMWS1.Neural5_EMINFO;
+22625      length TARGET KEY $32 DATA $43;
+22626      input TARGET KEY DATA $;
+22627      cards;
+
+NOTE: The data set EMWS1.NEURAL5_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22631      run;
+22632      data EMWS1.Neural5_EMINFO;
+22633      set EMWS1.Neural5_EMINFO WORK.MODELTEMP_INFO;
+22634      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL5_EMINFO.
+NOTE: There were 0 observations read from the data set WORK.MODELTEMP_INFO.
+NOTE: The data set EMWS1.NEURAL5_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.04 seconds
+      
+
+22635      proc sort data = EMWS1.Neural5_EMINFO NOTHREADS;
+22636      by TARGET KEY;
+22637      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL5_EMINFO.
+NOTE: The data set EMWS1.NEURAL5_EMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22638      proc sort data = EMWS1.Ids_EMINFO OUT=WORK.SORTEDEMINFO NOTHREADS;
+22639      by TARGET KEY;
+22640      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.IDS_EMINFO.
+NOTE: The data set WORK.SORTEDEMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22641      proc sort data = EMWS1.Neural5_EMINFO OUT=WORK.TEMP_INFO NOTHREADS;
+22642      by TARGET KEY;
+22643      run;
+
+NOTE: Input data set is already sorted; it has been copied to the output data set.
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL5_EMINFO.
+NOTE: The data set WORK.TEMP_INFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22644      data EMWS1.Neural5_EMINFO;
+22645      merge WORK.SORTEDEMINFO WORK.TEMP_INFO;
+22646      by TARGET KEY;
+22647      run;
+
+NOTE: There were 3 observations read from the data set WORK.SORTEDEMINFO.
+NOTE: There were 3 observations read from the data set WORK.TEMP_INFO.
+NOTE: The data set EMWS1.NEURAL5_EMINFO has 4 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+22648      proc datasets lib=work nolist;
+22649      delete TEMP_INFO SORTEDEMINFO;
+22650      run;
+
+NOTE: Deleting WORK.TEMP_INFO (memtype=DATA).
+NOTE: Deleting WORK.SORTEDEMINFO (memtype=DATA).
+22651      quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+22653      %let _HPDMGRIDHOST=;
+22654      %let _HPDMGRIDINSTALLLOC=;
+22655      %let _HPDMGRIDDATASERVER=;
+22656      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural5 : End Update 
+* datetime : 04NOV2015:07:49:51 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural6 : Beginning Update 
+* datetime : 04NOV2015:07:49:51 
+* 
+*------------------------------------------------------------* 
+22675      *------------------------------------------------------------*;
+22676      * Neural6: Update Variables Set;
+22677      *------------------------------------------------------------*;
+
+22678      proc sort data=EMWS1.BINNING_CMeta_TRAIN out=_SortedVar;
+22679      by name;
+22680      run;
+
+NOTE: There were 18 observations read from the data set EMWS1.BINNING_CMETA_TRAIN.
+NOTE: The data set WORK._SORTEDVAR has 18 observations and 20 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22685      proc sort data=EMWS1.Neural6_VariableSet;
+22686      by name;
+22687      run;
+
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL6_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL6_VARIABLESET has 17 observations and 21 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+22688      data EMWS1.Neural6_VariableSet;
+22689      merge _SortedVar(in=_a) EMWS1.Neural6_VariableSet(in=_b rename=(ROLE = OLDROLE) keep=NAME ROLE USE REPORT);
+22690      by name;
+22691      if (OLDROLE = 'TARGET' and use = 'Y') and ROLE = 'REJECTED' then USE = 'D';
+22692      drop OLDROLE;
+22693      if _b and ^_a then delete;
+22694      run;
+
+NOTE: There were 17 observations read from the data set WORK._SORTEDVAR.
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL6_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL6_VARIABLESET has 17 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+22695      * Neural6: End of Update Variables Set;
+22696      *------------------------------------------------------------*;
+
+22697      *------------------------------------------------------------*;
+22698      * Neural6: Computing metadata for TRAIN data;
+22699      *------------------------------------------------------------*;
+
+23034      data WORK.MODELTEMP_INFO;
+23035      set EMWS1.Neural6_EMINFO;
+23036      where DATA='Neural6' and KEY ^in('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+23037      run;
+
+NOTE: There were 0 observations read from the data set EMWS1.NEURAL6_EMINFO.
+      WHERE (DATA='Neural6') and KEY not in ('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+NOTE: The data set WORK.MODELTEMP_INFO has 0 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23038      data EMWS1.Neural6_EMINFO;
+23039      length TARGET KEY $32 DATA $43;
+23040      input TARGET KEY DATA $;
+23041      cards;
+
+NOTE: The data set EMWS1.NEURAL6_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23045      run;
+23046      data EMWS1.Neural6_EMINFO;
+23047      set EMWS1.Neural6_EMINFO WORK.MODELTEMP_INFO;
+23048      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL6_EMINFO.
+NOTE: There were 0 observations read from the data set WORK.MODELTEMP_INFO.
+NOTE: The data set EMWS1.NEURAL6_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23049      proc sort data = EMWS1.Neural6_EMINFO NOTHREADS;
+23050      by TARGET KEY;
+23051      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL6_EMINFO.
+NOTE: The data set EMWS1.NEURAL6_EMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23052      proc sort data = EMWS1.Ids_EMINFO OUT=WORK.SORTEDEMINFO NOTHREADS;
+23053      by TARGET KEY;
+23054      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.IDS_EMINFO.
+NOTE: The data set WORK.SORTEDEMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23055      proc sort data = EMWS1.Neural6_EMINFO OUT=WORK.TEMP_INFO NOTHREADS;
+23056      by TARGET KEY;
+23057      run;
+
+NOTE: Input data set is already sorted; it has been copied to the output data set.
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL6_EMINFO.
+NOTE: The data set WORK.TEMP_INFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23058      data EMWS1.Neural6_EMINFO;
+23059      merge WORK.SORTEDEMINFO WORK.TEMP_INFO;
+23060      by TARGET KEY;
+23061      run;
+
+NOTE: There were 3 observations read from the data set WORK.SORTEDEMINFO.
+NOTE: There were 3 observations read from the data set WORK.TEMP_INFO.
+NOTE: The data set EMWS1.NEURAL6_EMINFO has 4 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23062      proc datasets lib=work nolist;
+23063      delete TEMP_INFO SORTEDEMINFO;
+23064      run;
+
+NOTE: Deleting WORK.TEMP_INFO (memtype=DATA).
+NOTE: Deleting WORK.SORTEDEMINFO (memtype=DATA).
+23065      quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.06 seconds
+      cpu time            0.06 seconds
+      
+
+23067      %let _HPDMGRIDHOST=;
+23068      %let _HPDMGRIDINSTALLLOC=;
+23069      %let _HPDMGRIDDATASERVER=;
+23070      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural6 : End Update 
+* datetime : 04NOV2015:07:49:54 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "CNTRL" 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* Neural4 : Beginning Update 
+* datetime : 04NOV2015:07:49:55 
+* 
+*------------------------------------------------------------* 
+23089      *------------------------------------------------------------*;
+23090      * Neural4: Update Variables Set;
+23091      *------------------------------------------------------------*;
+
+23092      proc sort data=EMWS1.BINNING_CMeta_TRAIN out=_SortedVar;
+23093      by name;
+23094      run;
+
+NOTE: There were 18 observations read from the data set EMWS1.BINNING_CMETA_TRAIN.
+NOTE: The data set WORK._SORTEDVAR has 18 observations and 20 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23099      proc sort data=EMWS1.Neural4_VariableSet;
+23100      by name;
+23101      run;
+
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL4_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL4_VARIABLESET has 17 observations and 21 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23102      data EMWS1.Neural4_VariableSet;
+23103      merge _SortedVar(in=_a) EMWS1.Neural4_VariableSet(in=_b rename=(ROLE = OLDROLE) keep=NAME ROLE USE REPORT);
+23104      by name;
+23105      if (OLDROLE = 'TARGET' and use = 'Y') and ROLE = 'REJECTED' then USE = 'D';
+23106      drop OLDROLE;
+23107      if _b and ^_a then delete;
+23108      run;
+
+NOTE: There were 17 observations read from the data set WORK._SORTEDVAR.
+NOTE: There were 17 observations read from the data set EMWS1.NEURAL4_VARIABLESET.
+NOTE: The data set EMWS1.NEURAL4_VARIABLESET has 17 observations and 21 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+23109      * Neural4: End of Update Variables Set;
+23110      *------------------------------------------------------------*;
+
+23111      *------------------------------------------------------------*;
+23112      * Neural4: Computing metadata for TRAIN data;
+23113      *------------------------------------------------------------*;
+
+23448      data WORK.MODELTEMP_INFO;
+23449      set EMWS1.Neural4_EMINFO;
+23450      where DATA='Neural4' and KEY ^in('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+23451      run;
+
+NOTE: There were 0 observations read from the data set EMWS1.NEURAL4_EMINFO.
+      WHERE (DATA='Neural4') and KEY not in ('DECDATA', 'DECMETA', 'IMPORTANCE', 'MODEL');
+NOTE: The data set WORK.MODELTEMP_INFO has 0 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23452      data EMWS1.Neural4_EMINFO;
+23453      length TARGET KEY $32 DATA $43;
+23454      input TARGET KEY DATA $;
+23455      cards;
+
+NOTE: The data set EMWS1.NEURAL4_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.00 seconds
+      
+
+23459      run;
+23460      data EMWS1.Neural4_EMINFO;
+23461      set EMWS1.Neural4_EMINFO WORK.MODELTEMP_INFO;
+23462      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL4_EMINFO.
+NOTE: There were 0 observations read from the data set WORK.MODELTEMP_INFO.
+NOTE: The data set EMWS1.NEURAL4_EMINFO has 3 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+23463      proc sort data = EMWS1.Neural4_EMINFO NOTHREADS;
+23464      by TARGET KEY;
+23465      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL4_EMINFO.
+NOTE: The data set EMWS1.NEURAL4_EMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23466      proc sort data = EMWS1.Ids_EMINFO OUT=WORK.SORTEDEMINFO NOTHREADS;
+23467      by TARGET KEY;
+23468      run;
+
+NOTE: There were 3 observations read from the data set EMWS1.IDS_EMINFO.
+NOTE: The data set WORK.SORTEDEMINFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23469      proc sort data = EMWS1.Neural4_EMINFO OUT=WORK.TEMP_INFO NOTHREADS;
+23470      by TARGET KEY;
+23471      run;
+
+NOTE: Input data set is already sorted; it has been copied to the output data set.
+NOTE: There were 3 observations read from the data set EMWS1.NEURAL4_EMINFO.
+NOTE: The data set WORK.TEMP_INFO has 3 observations and 3 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23472      data EMWS1.Neural4_EMINFO;
+23473      merge WORK.SORTEDEMINFO WORK.TEMP_INFO;
+23474      by TARGET KEY;
+23475      run;
+
+NOTE: There were 3 observations read from the data set WORK.SORTEDEMINFO.
+NOTE: There were 3 observations read from the data set WORK.TEMP_INFO.
+NOTE: The data set EMWS1.NEURAL4_EMINFO has 4 observations and 3 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+23476      proc datasets lib=work nolist;
+23477      delete TEMP_INFO SORTEDEMINFO;
+23478      run;
+
+NOTE: Deleting WORK.TEMP_INFO (memtype=DATA).
+NOTE: Deleting WORK.SORTEDEMINFO (memtype=DATA).
+23479      quit;
+
+NOTE: PROCEDURE DATASETS used (Total process time):
+      real time           0.04 seconds
+      cpu time            0.04 seconds
+      
+
+23481      %let _HPDMGRIDHOST=;
+23482      %let _HPDMGRIDINSTALLLOC=;
+23483      %let _HPDMGRIDDATASERVER=;
+23484      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* Neural4 : End Update 
+* datetime : 04NOV2015:07:49:57 
+* 
+*------------------------------------------------------------* 
+Traverser: WaitingNode "MDLCOMP" 
+traverser_readyNode_note 
+traverser_readyNode_note 
+*------------------------------------------------------------* 
+* 
+* MdlComp : Beginning Update 
+* datetime : 04NOV2015:07:49:58 
+* 
+*------------------------------------------------------------* 
+NOTE: There were 27 observations read from the data set WORK.MDLCOMP_FILTERSET.
+NOTE: The data set EMWS1.MDLCOMP_IMPORTSET has 27 observations and 14 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL4_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO429USD_J has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL4_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO43LYTEGY has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL6_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO437XFSZ8 has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL6_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO43WUBSF5 has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL5_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO41IUI2ZM has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL5_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO42DBD4TJ has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL3_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO42NKAK8O has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL3_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO41D3156T has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL2_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO401BZCZV has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL2_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO43NWMVEX has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL_EMINFO.
+      WHERE KEY='MODEL';
+NOTE: The data set WORK.EMINFO41UKZZGL has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _INIT >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL SETMETADATA >> 
+NOTE: There were 1 observations read from the data set EMWS1.NEURAL_EMINFO.
+      WHERE (TARGET='BAD') and (KEY='DECMETA');
+NOTE: The data set WORK.EMINFO41L0SZ49 has 1 observations and 3 variables.
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL numElements >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL next >> 
+Executing  SASHELP.EMCORE.EMINFOITERATOR.SCL _term >> 
+23559      data EMWS1.MdlComp_VariableSet;
+23560      length USE $1 NAME $32 ROLE $32 LEVEL $10 EVENT $32 LABEL $200;
+23561      NAME = "BAD";
+23562      ROLE="TARGET";
+23563      LEVEL = 'BINARY';
+23564      EVENT = '1';
+23565      LABEL = '';
+23566      output;
+23567      NAME = "BAD";
+23568      ROLE="TARGET";
+23569      LEVEL = 'BINARY';
+23570      EVENT = '1';
+23571      LABEL = '';
+23572      output;
+23573      NAME = "BAD";
+23574      ROLE="TARGET";
+23575      LEVEL = 'BINARY';
+23576      EVENT = '1';
+23577      LABEL = '';
+23578      output;
+23579      NAME = "BAD";
+23580      ROLE="TARGET";
+23581      LEVEL = 'BINARY';
+23582      EVENT = '1';
+23583      LABEL = '';
+23584      output;
+23585      NAME = "BAD";
+23586      ROLE="TARGET";
+23587      LEVEL = 'BINARY';
+23588      EVENT = '1';
+23589      LABEL = '';
+23590      output;
+23591      NAME = "BAD";
+23592      ROLE="TARGET";
+23593      LEVEL = 'BINARY';
+23594      EVENT = '1';
+23595      LABEL = '';
+23596      output;
+23597      run;
+
+NOTE: Variable USE is uninitialized.
+NOTE: The data set EMWS1.MDLCOMP_VARIABLESET has 6 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23598      proc sort data=EMWS1.MdlComp_VariableSet nodupkey NOTHREADS;
+23599      by NAME LEVEL;
+23600      run;
+
+NOTE: There were 6 observations read from the data set EMWS1.MDLCOMP_VARIABLESET.
+NOTE: 5 observations with duplicate key values were deleted.
+NOTE: The data set EMWS1.MDLCOMP_VARIABLESET has 1 observations and 6 variables.
+NOTE: PROCEDURE SORT used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+      
+
+23601      data EMWS1.MdlComp_VariableSet;
+23602      set EMWS1.MdlComp_VariableSet;
+23603      if NAME = "BAD" then USE="Y";
+23604      else USE = "N";
+23605      run;
+
+NOTE: There were 1 observations read from the data set EMWS1.MDLCOMP_VARIABLESET.
+NOTE: The data set EMWS1.MDLCOMP_VARIABLESET has 1 observations and 6 variables.
+NOTE: DATA statement used (Total process time):
+      real time           0.01 seconds
+      cpu time            0.01 seconds
+      
+
+23606      *------------------------------------------------------------*;
+23607      * MdlComp: Computing metadata for TRAIN data;
+23608      *------------------------------------------------------------*;
+
+23923      %let _HPDMGRIDHOST=;
+23924      %let _HPDMGRIDINSTALLLOC=;
+23925      %let _HPDMGRIDDATASERVER=;
+23926      %hpdm_gridSetOPtions;
+
+NOTE: DATA statement used (Total process time):
+      real time           0.00 seconds
+      cpu time            0.00 seconds
+      
+
+
+*------------------------------------------------------------* 
+* 
+* MdlComp : End Update 
+* datetime : 04NOV2015:07:50:01 
+* 
+*------------------------------------------------------------* 
+Traverser: Run Completed 
+23927      proc printto;
+23928      run;
+

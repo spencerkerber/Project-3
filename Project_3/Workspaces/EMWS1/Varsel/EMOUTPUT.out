@@ -1,0 +1,167 @@
+*------------------------------------------------------------*
+User:                sakerb01
+Date:                November 04, 2015
+Time:                07:39:12
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          10
+INPUT      NOMINAL            2
+TARGET     BINARY             1
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+               R-Squares for Target Variable: BAD
+ 
+Effect                        DF        R-Square
+ 
+AOV16: IMP_DELINQ             13        0.135068
+Var:   IMP_DELINQ              1        0.126570
+AOV16: IMP_DEROG              10        0.081440
+Var:   IMP_DEROG               1        0.063358
+AOV16: IMP_DEBTINC            10        0.060409
+AOV16: IMP_NINQ               14        0.043723
+AOV16: IMP_CLAGE               8        0.037524
+Var:   IMP_NINQ                1        0.035494
+Var:   IMP_CLAGE               1        0.025583
+AOV16: LOAN                   15        0.024808
+Class: IMP_JOB*IMP_REASON     11        0.020648
+AOV16: IMP_CLNO               14        0.020587
+Group: IMP_JOB*IMP_REASON      6        0.020439
+Var:   IMP_DEBTINC             1        0.017386
+AOV16: IMP_YOJ                15        0.017248
+AOV16: IMP_MORTDUE            12        0.016437
+AOV16: IMP_VALUE               8        0.012683
+Class: IMP_JOB                 5        0.011673
+Group: IMP_JOB                 4        0.011563
+Var:   IMP_YOJ                 1        0.005086
+Var:   LOAN                    1        0.004786    R2 < MINR2
+Var:   IMP_MORTDUE             1        0.002018    R2 < MINR2
+Class: IMP_REASON              1        0.000581    R2 < MINR2
+Var:   IMP_VALUE               1        0.000284    R2 < MINR2
+Var:   IMP_CLNO                1        0.000239    R2 < MINR2
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+                                      Effects Chosen for Target: BAD
+ 
+                                                                                     Sum of      Error Mean
+Effect                        DF        R-Square         F Value    p-Value         Squares          Square
+ 
+Var:   IMP_DELINQ              1        0.126570      431.399505     <.0001       60.191265        0.139526
+Var:   IMP_DEROG               1        0.037960      135.217732     <.0001       18.052440        0.133506
+Var:   IMP_NINQ                1        0.022222       81.293701     <.0001       10.568102        0.129999
+Var:   IMP_CLAGE               1        0.016846       62.909723     <.0001        8.011484        0.127349
+Var:   IMP_DEBTINC             1        0.010467       39.594740     <.0001        4.977748        0.125717
+Group: IMP_JOB                 4        0.006220        5.921614     <.0001        2.958212        0.124890
+Var:   IMP_YOJ                 1        0.001045        3.981986     0.0461        0.496813        0.124765
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+       The Final ANOVA Table for Target: BAD
+ 
+                                              Sum of
+Effect            DF        R-Square         Squares
+ 
+Model             10        0.221331      105.256064
+Error           2968               .      370.302848
+Total           2978               .      475.558912
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+         Estimating logistic
+ 
+ Iter           Alpha            Beta
+ 
+    0       -2.214769        4.265120
+    1       -3.495033        6.297576
+    2       -3.930759        6.947892
+    3       -3.963800        6.995921
+    4       -3.963960        6.996150
+    4       -3.963960        6.996150
+ 
+ 
+ 
+ 
+ 
+The DMINE Procedure
+ 
+Classification Table for CUTOFF = 0.5000
+ 
+         Accuracy =  83.52
+ 
+                      Predicted
+Observed               1           0
+ 
+1                    183         411
+0                     80        2305
+Missing                0           0
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+-------------------------------------------------------------------
+Summary of Variable Selection from Training
+-------------------------------------------------------------------
+ 
+ 
+Target Name : BAD
+Target Level : BINARY
+Variable Selection Model : R-Square
+ 
+Total number of inputs : 12
+Total number of used inputs : 12
+Total number of unused inputs : 0
+Total number of rejected inputs : 6
+ 
+Maximum missing percentage : 10
+NOTE: There is no rejected variable by maximum missing percentage
+ 
+Maximum class level : 100
+NOTE:There is no rejected variable by maximum class level
+ 
+NOTE: 1 group variable has been created
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*

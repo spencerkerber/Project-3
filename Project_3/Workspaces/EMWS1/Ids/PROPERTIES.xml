@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?><_ROOT_  DataSource="hmeq1" Scope="LOCAL" Role="RAW" Library="SAMPSIO" Table="HMEQ" NCols="13"
+ NObs="5960" NBytes="656384" Segment="" DataSourceRole="RAW" OutputType="VIEW" ForceRun="N"
+ ComputeStatistics="N" DataSelection="DATASOURCE" NewTable="" MetaAdvisor="BASIC"
+ ApplyIntervalLevelLowerLimit="Y" IntervalLowerLimit="20" ApplyMaxPercentMissing="Y"
+ MaxPercentMissing="50" ApplyMaxClassLevels="Y" MaxClassLevels="20" IdentifyEmptyColumns="Y"
+ VariableValidation="STRICT" NewVariableRole="REJECT" DropMapVariables="N" DsId="hmeq1"
+ DsSampleName="" DsSampleSizeType="" DsSampleSize="" DsCreatedBy="sakerb01" DsCreateDate="1762241887.4"
+ DsModifiedBy="sakerb01" DsModifyDate="1762241887.5" DsScope="LOCAL" Sample="D" SampleSizeType="PERCENT"
+ SampleSizePercent="20" SampleSizeObs="10000" DBPassThrough="Y" RunAction="Train"
+ Component="DataSource" RawCreateTime="1762095490.5" CreateTime="02NOV2015:14:58:10"
+ Description="" Data="SAMPSIO.HMEQ" CMeta="WORK.M267JP0F" RunId="fc7d6003-674c-47ce-a36d-dd9aea103bcb"
+>
+<VARIABLEPROPERTIES/>
+<FILEPROPERTIES/>
+</_ROOT_>

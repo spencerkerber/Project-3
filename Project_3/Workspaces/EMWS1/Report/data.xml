@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SASReport version="1.2" xmlns:style="http://www.sas.com/sasreportmodel/styles">
+<Data version="9.4">
+  <DataModel name="StatGraphDataModelIDX">
+    <IQData type="2DEmbedded" name="StatGraphDataIDX">
+      <EmbeddedData>
+      <Variables>
+        <Variable name="PFDITEMLIST" label="PFDItemList" type="String" length="256"/>
+      </Variables>
+        <ValuesList valuesCount="37">
+          <V>&lt;PFDNode x=&quot;264&quot; y=&quot;462&quot; id=&quot;BINNING&quot; title=&quot;Interactive Binning&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;429&quot; y=&quot;726&quot; id=&quot;CNTRL&quot; title=&quot;Control Point&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;462&quot; y=&quot;198&quot; id=&quot;GrfExpl&quot; title=&quot;Graph Explore&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;297&quot; y=&quot;66&quot; id=&quot;Ids&quot; title=&quot;All: Home-Equity Loan Scoring Data&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;66&quot; y=&quot;330&quot; id=&quot;Impt&quot; title=&quot;Impute&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;429&quot; y=&quot;858&quot; id=&quot;MdlComp&quot; title=&quot;Model Comparison&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;924&quot; y=&quot;594&quot; id=&quot;Neural&quot; title=&quot;Neural Network&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;594&quot; y=&quot;594&quot; id=&quot;Neural2&quot; title=&quot;Neural Network (2)&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;759&quot; y=&quot;594&quot; id=&quot;Neural3&quot; title=&quot;Neural Network (3)&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;264&quot; y=&quot;594&quot; id=&quot;Neural4&quot; title=&quot;Neural Network (4)&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;429&quot; y=&quot;594&quot; id=&quot;Neural5&quot; title=&quot;Neural Network (5)&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;99&quot; y=&quot;594&quot; id=&quot;Neural6&quot; title=&quot;Neural Network (6)&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;297&quot; y=&quot;198&quot; id=&quot;Part&quot; title=&quot;Data Partition&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;429&quot; y=&quot;990&quot; id=&quot;Report&quot; title=&quot;Reporter&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;264&quot; y=&quot;330&quot; id=&quot;Trans&quot; title=&quot;Transform Variables&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDNode x=&quot;759&quot; y=&quot;462&quot; id=&quot;Varsel&quot; title=&quot;Variable Selection&quot;&gt;&lt;/PFDNode&gt;</V>
+          <V>&lt;PFDLink id=&#39;1&#39; fromId=&#39;Ids&#39; toId=&#39;Part&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;2&#39; fromId=&#39;Ids&#39; toId=&#39;GrfExpl&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;3&#39; fromId=&#39;Part&#39; toId=&#39;Impt&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;4&#39; fromId=&#39;Trans&#39; toId=&#39;BINNING&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;5&#39; fromId=&#39;Varsel&#39; toId=&#39;Neural&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;6&#39; fromId=&#39;Varsel&#39; toId=&#39;Neural2&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;7&#39; fromId=&#39;Varsel&#39; toId=&#39;Neural3&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;8&#39; fromId=&#39;BINNING&#39; toId=&#39;Neural4&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;9&#39; fromId=&#39;BINNING&#39; toId=&#39;Neural5&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;10&#39; fromId=&#39;BINNING&#39; toId=&#39;Neural6&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;11&#39; fromId=&#39;CNTRL&#39; toId=&#39;MdlComp&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;12&#39; fromId=&#39;Neural4&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;13&#39; fromId=&#39;Neural6&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;14&#39; fromId=&#39;Neural5&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;15&#39; fromId=&#39;Neural3&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;16&#39; fromId=&#39;Neural2&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;17&#39; fromId=&#39;Neural&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;18&#39; fromId=&#39;Part&#39; toId=&#39;Trans&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;19&#39; fromId=&#39;Part&#39; toId=&#39;Varsel&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;20&#39; fromId=&#39;Impt&#39; toId=&#39;CNTRL&#39;&gt;&lt;/PFDLink&gt;</V>
+          <V>&lt;PFDLink id=&#39;21&#39; fromId=&#39;MdlComp&#39; toId=&#39;Report&#39;&gt;&lt;/PFDLink&gt;</V>
+        </ValuesList>
+      </EmbeddedData>
+    </IQData>
+  </DataModel>
+</Data>
+</SASReport>

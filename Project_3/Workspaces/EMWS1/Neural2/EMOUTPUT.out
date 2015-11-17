@@ -1,0 +1,394 @@
+*------------------------------------------------------------*
+User:                sakerb01
+Date:                November 04, 2015
+Time:                07:40:04
+*------------------------------------------------------------*
+* Training Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Variable Summary
+ 
+          Measurement    Frequency
+ Role        Level         Count
+ 
+INPUT      INTERVAL          6
+INPUT      NOMINAL           1
+TARGET     BINARY            1
+ 
+ 
+ 
+ 
+Model Events
+ 
+                                  Number
+                   Measurement      of
+Target    Event       Level       Levels      Order       Label
+ 
+ BAD        1        BINARY          2      Descending
+ 
+ 
+ 
+ 
+Predicted and decision variables
+ 
+Type         Variable    Label
+ 
+TARGET        BAD
+PREDICTED     P_BAD1     Predicted: BAD=1
+RESIDUAL      R_BAD1     Residual: BAD=1
+PREDICTED     P_BAD0     Predicted: BAD=0
+RESIDUAL      R_BAD0     Residual: BAD=0
+FROM          F_BAD      From: BAD
+INTO          I_BAD      Into: BAD
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Preliminary       Starting         Objective         Number
+ Training          Random           Function           of        Terminating
+    Run             Seed             Value         Iterations     Criteria
+ 
+        1               12345    0.390893417139           10
+        2          1223914820    0.391026519446           10
+        3           327643449    0.390938320442           10
+        4          1684634925    0.390811780229           10
+        5          2114982697    0.392653081651           10
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                 Optimization Start
+                Parameter Estimates
+                                           Gradient
+                                          Objective
+  N Parameter              Estimate        Function
+ 
+  1 IMP_CLAGE_H11          0.174037        0.004964
+  2 IMP_DEBTINC_H11       -0.108237        0.002169
+  3 IMP_DELINQ_H11        -0.222672        0.001061
+  4 IMP_DEROG_H11         -0.092468        0.002643
+  5 IMP_NINQ_H11          -0.069710        0.001800
+  6 IMP_YOJ_H11            0.021690       -0.003284
+  7 G_IMP_JOB0_H11        -0.272205        0.000612
+  8 G_IMP_JOB1_H11         0.006460       -0.000709
+  9 G_IMP_JOB2_H11         0.036720       -0.001627
+ 10 G_IMP_JOB3_H11         0.059461       -0.001640
+ 11 BIAS_H11               0.310775       -0.005738
+ 12 H11_BAD1              -4.305892        0.000489
+ 13 BIAS_BAD1             -0.255057        0.001390
+ 
+Value of Objective Function = 0.3908117802
+ 
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+Levenberg-Marquardt Optimization
+ 
+ 
+Minimum Iterations                                0
+Maximum Iterations                               50
+Maximum Function Calls                   2147483647
+Maximum CPU Time                              14400
+ABSGCONV Gradient Criterion                 0.00001
+GCONV Gradient Criterion                       1E-8
+GCONV2 Gradient Criterion                         0
+ABSFCONV Function Criterion                       0
+FCONV Function Criterion                     0.0001
+FCONV2 Function Criterion                         0
+FSIZE Parameter                                   0
+ABSXCONV Parameter Change Criterion               0
+XCONV Parameter Change Criterion                  0
+XSIZE Parameter                                   0
+ABSCONV Function Criterion             0.0018348522
+Trust Region Initial Radius Factor                1
+Singularity Tolerance (SINGULAR)               1E-8
+ 
+Levenberg-Marquardt Optimization
+ 
+Scaling Update of More (1978)
+ 
+Parameter Estimates              13
+ 
+                                      Optimization Start
+ 
+Active Constraints                           0  Objective Function                0.3908117802
+Max Abs Gradient Element          0.0057381416  Radius                                       1
+ 
+ 
+                                                                                         Ratio
+                                                                                       Between
+                                                                                        Actual
+                                                       Objective   Max Abs                 and
+                 Function       Active      Objective   Function  Gradient           Predicted
+Iter   Restarts     Calls  Constraints       Function     Change   Element   Lambda     Change
+ 
+   1          0         3            0        0.39079   0.000025   0.00230  0.00348      0.378
+   2          0         5            0        0.39078   9.272E-6   0.00184   0.0121      0.443
+   3          0         6            0        0.39078   1.502E-6  0.000923        0      0.289
+   4          0         8            0        0.39077   1.136E-6  0.000698  0.00862      0.368
+   5          0         9            0        0.39077   2.628E-8  0.000483        0     0.0256
+   6          0        10            0        0.39077   4.331E-7  0.000349   0.0155      0.507
+   7          0        11            0        0.39077    8.97E-8  0.000153        0      0.599
+   8          0        12            0        0.39077   1.225E-9  0.000098        0     0.0317
+   9          0        13            0        0.39077   1.574E-8  0.000071   0.0123      0.451
+  10          0        14            0        0.39077   1.878E-9  0.000040        0      0.265
+ 
+                                     Optimization Results
+ 
+Iterations                                  10  Function Calls                              16
+Jacobian Calls                              12  Active Constraints                           0
+Objective Function                0.3907740175  Max Abs Gradient Element          0.0000404711
+Lambda                                       0  Actual Over Pred Change           0.2646171834
+Radius                            0.0007659735
+ 
+Convergence criterion (FCONV=0.0001) satisfied.
+ 
+ 
+ 
+ 
+ 
+The NEURAL Procedure
+ 
+                Optimization Results
+                Parameter Estimates
+                                           Gradient
+                                          Objective
+  N Parameter              Estimate        Function
+ 
+  1 IMP_CLAGE_H11          0.177298     0.000040099
+  2 IMP_DEBTINC_H11       -0.114677     0.000006565
+  3 IMP_DELINQ_H11        -0.229985     0.000040471
+  4 IMP_DEROG_H11         -0.096219     0.000016810
+  5 IMP_NINQ_H11          -0.072649     0.000010278
+  6 IMP_YOJ_H11            0.025266    -0.000004160
+  7 G_IMP_JOB0_H11        -0.285252     0.000003524
+  8 G_IMP_JOB1_H11         0.006911    -0.000008932
+  9 G_IMP_JOB2_H11         0.037366     0.000006285
+ 10 G_IMP_JOB3_H11         0.064966     0.000000314
+ 11 BIAS_H11               0.334909    -0.000013670
+ 12 H11_BAD1              -4.222361     0.000001600
+ 13 BIAS_BAD1             -0.206043     0.000002403
+ 
+Value of Objective Function = 0.3907740175
+ 
+
+
+*------------------------------------------------------------*
+* Score Output
+*------------------------------------------------------------*
+
+
+*------------------------------------------------------------*
+* Report Output
+*------------------------------------------------------------*
+ 
+ 
+ 
+ 
+Fit Statistics
+ 
+Target=BAD Target Label=' '
+ 
+   Fit
+Statistics    Statistics Label                     Train    Validation
+ 
+ _DFT_        Total Degrees of Freedom           2979.00          .
+ _DFE_        Degrees of Freedom for Error       2966.00          .
+ _DFM_        Model Degrees of Freedom             13.00          .
+ _NW_         Number of Estimated Weights          13.00          .
+ _AIC_        Akaike's Information Criterion     2354.46          .
+ _SBC_        Schwarz's Bayesian Criterion       2432.45          .
+ _ASE_        Average Squared Error                 0.12         0.13
+ _MAX_        Maximum Absolute Error                0.99         0.98
+ _DIV_        Divisor for ASE                    5958.00      5962.00
+ _NOBS_       Sum of Frequencies                 2979.00      2981.00
+ _RASE_       Root Average Squared Error            0.35         0.36
+ _SSE_        Sum of Squared Errors               716.20       763.26
+ _SUMW_       Sum of Case Weights Times Freq     5958.00      5962.00
+ _FPE_        Final Prediction Error                0.12          .
+ _MSE_        Mean Squared Error                    0.12         0.13
+ _RFPE_       Root Final Prediction Error           0.35          .
+ _RMSE_       Root Mean Squared Error               0.35         0.36
+ _AVERR_      Average Error Function                0.39         0.41
+ _ERR_        Error Function                     2328.46      2443.05
+ _MISC_       Misclassification Rate                0.16         0.17
+ _WRONG_      Number of Wrong Classifications     471.00       506.00
+ 
+ 
+ 
+ 
+Classification Table
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+                       Target        Outcome     Frequency       Total
+Target    Outcome    Percentage    Percentage      Count      Percentage
+ 
+  0          0         85.2876       96.9811        2313        77.6435
+  1          0         14.7124       67.1717         399        13.3938
+  0          1         26.9663        3.0189          72         2.4169
+  1          1         73.0337       32.8283         195         6.5458
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+                       Target        Outcome     Frequency       Total
+Target    Outcome    Percentage    Percentage      Count      Percentage
+ 
+  0          0         84.8406       95.9346        2289        76.7863
+  1          0         15.1594       68.7395         409        13.7202
+  0          1         34.2756        4.0654          97         3.2539
+  1          1         65.7244       31.2605         186         6.2395
+ 
+ 
+ 
+ 
+Event Classification Table
+ 
+Data Role=TRAIN Target=BAD Target Label=' '
+ 
+  False       True        False       True
+Negative    Negative    Positive    Positive
+ 
+   399        2313         72          195
+ 
+ 
+Data Role=VALIDATE Target=BAD Target Label=' '
+ 
+  False       True        False       True
+Negative    Negative    Positive    Positive
+ 
+   409        2289         97          186
+ 
+ 
+ 
+ 
+Assessment Score Rankings
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+                                                                                    Mean
+                            Cumulative       %      Cumulative     Number of     Posterior
+Depth      Gain     Lift       Lift      Response   % Response   Observations   Probability
+ 
+   5    303.905   4.03905     4.03905     80.5369     80.5369         149         0.85380
+  10    256.783   3.09660     3.56783     61.7450     71.1409         149         0.57154
+  15    204.051   1.98587     3.04051     39.5973     60.6264         149         0.38930
+  20    170.953   1.71660     2.70953     34.2282     54.0268         149         0.30509
+  25    136.284   0.97610     2.36284     19.4631     47.1141         149         0.25220
+  30    112.611   0.94244     2.12611     18.7919     42.3937         149         0.21680
+  35     94.259   0.84147     1.94259     16.7785     38.7344         149         0.19069
+  40     83.019   1.04342     1.83019     20.8054     36.4933         149         0.16932
+  45     75.399   1.14440     1.75399     22.8188     34.9739         149         0.15334
+  50     64.928   0.70683     1.64928     14.0940     32.8859         149         0.13725
+  55     56.972   0.77415     1.56972     15.4362     31.2996         149         0.12235
+  60     46.415   0.30293     1.46415      6.0403     29.1946         149         0.11023
+  65     38.260   0.40390     1.38260      8.0537     27.5684         149         0.09998
+  70     31.750   0.47122     1.31750      9.3960     26.2704         149         0.09071
+  75     25.210   0.33659     1.25210      6.7114     24.9664         149         0.08312
+  80     18.647   0.20195     1.18647      4.0268     23.6577         149         0.07391
+  85     13.252   0.26927     1.13252      5.3691     22.5819         149         0.06427
+  90      9.391   0.43756     1.09391      8.7248     21.8121         149         0.05500
+  95      4.342   0.13463     1.04342      2.6846     20.8054         149         0.04397
+ 100      0.000   0.16943     1.00000      3.3784     19.9396         148         0.03173
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+                                                                                    Mean
+                            Cumulative       %      Cumulative     Number of     Posterior
+Depth      Gain     Lift       Lift      Response   % Response   Observations   Probability
+ 
+   5    287.446   3.87446     3.87446     77.3333     77.3333         150         0.84113
+  10    220.042   2.52185     3.20042     50.3356     63.8796         149         0.58179
+  15    179.581   1.98386     2.79581     39.5973     55.8036         149         0.42281
+  20    150.085   1.61399     2.50085     32.2148     49.9162         149         0.32683
+  25    118.939   0.94149     2.18939     18.7919     43.6997         149         0.26545
+  30     99.284   1.00874     1.99284     20.1342     39.7765         149         0.22680
+  35     85.719   1.04237     1.85719     20.8054     37.0690         149         0.19835
+  40     74.702   0.97512     1.74702     19.4631     34.8701         149         0.17521
+  45     65.385   0.90787     1.65385     18.1208     33.0104         149         0.15637
+  50     57.930   0.90787     1.57930     18.1208     31.5225         149         0.14106
+  55     50.608   0.77337     1.50608     15.4362     30.0610         149         0.12631
+  60     45.066   0.84062     1.45066     16.7785     28.9547         149         0.11355
+  65     38.307   0.57162     1.38307     11.4094     27.6058         149         0.10175
+  70     32.034   0.50437     1.32034     10.0671     26.3536         149         0.09303
+  75     26.821   0.53800     1.26821     10.7383     25.3131         149         0.08481
+  80     20.578   0.26900     1.20578      5.3691     24.0671         149         0.07625
+  85     15.268   0.30262     1.15268      6.0403     23.0071         149         0.06651
+  90      9.613   0.13450     1.09613      2.6846     21.8785         149         0.05580
+  95      4.731   0.16812     1.04731      3.3557     20.9040         149         0.04557
+ 100      0.000   0.10087     1.00000      2.0134     19.9597         149         0.03267
+ 
+ 
+ 
+ 
+Assessment Score Distribution
+ 
+Data Role=TRAIN Target Variable=BAD Target Label=' '
+ 
+ Posterior     Number                     Mean
+Probability      of      Number of     Posterior
+   Range       Events    Nonevents    Probability    Percentage
+ 
+ 0.95-1.00       29           0         0.96621         0.9735
+ 0.90-0.95       24           2         0.92290         0.8728
+ 0.85-0.90       24           0         0.87627         0.8056
+ 0.80-0.85       14           4         0.82468         0.6042
+ 0.75-0.80       17          12         0.77698         0.9735
+ 0.70-0.75       14          11         0.72804         0.8392
+ 0.65-0.70       14          10         0.67551         0.8056
+ 0.60-0.65       23           4         0.62666         0.9063
+ 0.55-0.60       21          14         0.57520         1.1749
+ 0.50-0.55       15          15         0.52422         1.0070
+ 0.45-0.50       19          16         0.47368         1.1749
+ 0.40-0.45       23          33         0.42060         1.8798
+ 0.35-0.40       28          41         0.37288         2.3162
+ 0.30-0.35       32          71         0.32359         3.4575
+ 0.25-0.30       39         112         0.27291         5.0688
+ 0.20-0.25       45         180         0.22275         7.5529
+ 0.15-0.20       83         319         0.17209        13.4945
+ 0.10-0.15       64         493         0.12185        18.6975
+ 0.05-0.10       57         756         0.07565        27.2910
+ 0.00-0.05        9         292         0.03803        10.1041
+ 
+ 
+Data Role=VALIDATE Target Variable=BAD Target Label=' '
+ 
+ Posterior     Number                     Mean
+Probability      of      Number of     Posterior
+   Range       Events    Nonevents    Probability    Percentage
+ 
+ 0.95-1.00       24           0         0.96317         0.8051
+ 0.90-0.95       17           0         0.92318         0.5703
+ 0.85-0.90       20           7         0.88204         0.9057
+ 0.80-0.85       23           8         0.82583         1.0399
+ 0.75-0.80       15           8         0.76756         0.7716
+ 0.70-0.75       18          11         0.72391         0.9728
+ 0.65-0.70       18          12         0.67632         1.0064
+ 0.60-0.65       13          12         0.62253         0.8386
+ 0.55-0.60       20          22         0.57036         1.4089
+ 0.50-0.55       18          17         0.52343         1.1741
+ 0.45-0.50       29          30         0.47232         1.9792
+ 0.40-0.45       24          36         0.42132         2.0127
+ 0.35-0.40       21          59         0.37561         2.6837
+ 0.30-0.35       30          54         0.32412         2.8178
+ 0.25-0.30       32         124         0.27399         5.2331
+ 0.20-0.25       43         193         0.22309         7.9168
+ 0.15-0.20       73         295         0.17297        12.3449
+ 0.10-0.15       89         474         0.12340        18.8863
+ 0.05-0.10       61         750         0.07617        27.2056
+ 0.00-0.05        7         274         0.03844         9.4264
